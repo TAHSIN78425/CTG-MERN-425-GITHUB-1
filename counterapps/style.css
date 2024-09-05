@@ -1,0 +1,57 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color:none;
+
+}
+.container{
+    text-align: center;
+  color:white;
+     padding: 10px;
+     box-shadow: 0 0 10px rgba(0, 0,0,0.1);
+    border-radius:8px;
+
+}
+.display-text{
+
+    text-align: center;
+    color: black;
+
+}
+ .display-value{
+
+
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+ }
+
+.buttons{
+
+display: flex;
+gap: 5px;
+
+
+
+}
+.design-btn{
+
+color: white;
+background-color: rgb(88, 165, 228);
+padding: 5px;
+font-size: 20px;
+border-radius: 5px;
+border: none;
+
+}
